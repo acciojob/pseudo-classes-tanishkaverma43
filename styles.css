@@ -1,4 +1,8 @@
 /*  your css code here. If applicable */
-*{
-	background-color:rgb(135, 206, 235);
+:root {
+    --main-bg-color: rgb(135, 206, 235);
+}
+
+body {
+    background-color: var(--main-bg-color);
 }
