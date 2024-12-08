@@ -6,3 +6,44 @@
 body {
     background-color: var(--main-bg-color);
 }
+
+div>p:first-child{
+	background-color: black;
+	color: white;
+}
+
+div>p:nth-child(2){
+	color: white;
+	
+}
+
+div>p:last-child{
+color: red;
+}
+
+ul>li{
+	width: 50%;
+	padding: 10px;
+}
+
+ul :nth-child(even){
+	background-color: grey;
+}
+
+ul :nth-child(odd){
+	background-color: white;
+
+}
+
+ul:nth-child(1){
+	font-size: 22px;
+}
+
+ul:last-child(5){
+	font-size: 22px;
+}
+
+ul :nth-child(3){
+	background-color: pink;
+}
+
