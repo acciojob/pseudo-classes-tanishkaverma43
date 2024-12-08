@@ -6,18 +6,16 @@
 body {
     background-color: var(--main-bg-color);
 }
-
-div>p:first-child{
+article>p:first-child{
 	background-color: black;
 	color: white;
 }
 
-div>p:nth-child(2){
+article>p:nth-child(2){
 	color: white;
 	
 }
-
-div>p:last-child{
+article>p:last-child{
 color: red;
 }
 
